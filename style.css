@@ -5,6 +5,9 @@
 body {
   overflow-x: hidden;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .acceuil {
     width: 100vw;
@@ -182,6 +185,14 @@ h2 {
     height: 50px;
     width:50px;
   }
+
+  .icon {
+height: 100px;
+width: 100px;
+
+
+
+  }
   
 .experiences {
   height: 100vh;
@@ -232,7 +243,7 @@ flex-direction: column;
 }
 .niveau {
 width:100vw ;
-height:100vh ;
+height:80vh ;
 color: white;
 
 }
@@ -241,16 +252,20 @@ color: white;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  width: 100%;
+  margin-top: 60px;
+}
+.etoile {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
 }
 
 .icon3 {
 width: 100px;
 height: 100px;
 align-items: center;
-
-
-
-
 
 }
 
@@ -264,4 +279,43 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.linkreseau {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  margin-top: 5px;
+}
+.icon4 {
+width: 50px;
+height: 50px;
+display: flex;
+justify-content: space-between;
+
+
+
+
+}
+
+@media screen and (max-width:767px) {
+  h1 {
+    margin-left: 40px;
+    font-size: 70px;
+  }
+  h2 {
+    margin-left: 40px;
+    font-size: 40px;
+  }
+  .about {
+    height: 100vh;
+  }
+  .sous-titre {
+margin-left: 40px;
+
+
+
+
+  }
 }
