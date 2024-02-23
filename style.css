@@ -558,5 +558,13 @@ hr {
   .sous-titre {
 margin-left: 40px;
   }
+.logo {
+	margin-right:14px;}
+	.nav {
+		display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+	}
 }
 
